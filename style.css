@@ -102,29 +102,25 @@ h2{
     margin-bottom: 25px;
     text-align: center;
 }
-.kar{
-    text-decoration: none;
-    color: white;
-    transition: background-color 0.2s ease-in-out
-}
-.kar:hover{
-    color: black;
-}
-.karya{
+
+.karya button{
     border-radius: 10%;
     background-color: rgba(78, 159, 61, 1);
-    color: black;
+    text-decoration: none;
+    color: white;
     width: 100px;
     height: 35px;
     margin-top: 20px;
     transition: background-color 0.2s ease-in-out;
 }
-.karya:hover{
+
+.karya button:hover{
+    color: black;
     background-color: gray;
     color: black;
     cursor: pointer;
-    
 }
+
 .Tentang{
    padding-bottom: 100px;
    text-align: center;
@@ -136,6 +132,36 @@ h2{
    margin-right: 200px;
 
 }
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  
+  .timeline-item {
+    width: 2px; 
+    height: 250px; 
+    background: repeating-linear-gradient(
+      to bottom,
+      #ccc,
+      #ccc 1px,
+      transparent 2px,
+      transparent 7px
+    ); 
+  }
+    .timeline-dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    border: 2px solid black; 
+    margin: 5px;
+  }
+  .dot-green {
+    background-color: green; 
+  }
 .head{
     text-align: center;
 }
@@ -188,6 +214,17 @@ h2{
     padding: 20px;
     justify-content: center;
     gap: 50px;
-    
-    
 }
+    footer {
+        height: 50px;
+        width: auto;
+        background-color: #333333;
+    }
+
+    p.copyright {
+        padding-top: 10px;
+        color: #fff;
+        font-size: 15px;
+        text-align: center;
+        bottom:0;
+    }
