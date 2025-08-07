@@ -35,6 +35,8 @@ header{
     padding-bottom: 10px;
     background-color: var(--dark-color) ;
     border-bottom: 1px solid var(--secondary-dark-color) ;
+    position: sticky;
+    top: 0 ;
     
     
     
@@ -228,3 +230,4 @@ h2{
         text-align: center;
         bottom:0;
     }
+
