@@ -260,7 +260,7 @@ h3{
     gap: 5px;
 }
 .input {
-    width: 60%;
+    width: 40%;
   }
   
   .input form {
@@ -326,3 +326,4 @@ h3{
         text-align: center;
         bottom:0;
     }
+
